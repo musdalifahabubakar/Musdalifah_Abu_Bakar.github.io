@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>deklarasi panjang x lebar</h1>
+    <p>Jika panjang = 5 dan lebar = 3</p>
+    <p>Berapa hasil dari panjang x lebar ?</p>
+
+    <p id="mode"></p>
+    <script>
+      var panjang = 5;
+      var lebar = 3;
+      var hasil = panjang * lebar;
+      document.getElementById("mode").innerHTML = "Jawaban Hasil dari panjang x lebar adalah : " + hasil;
+    </script>
+
+    <h1>Pemeriksaan Angka</h1>
+
+    <p id="demo"></p>
+
+    <script>
+      var x = -2;
+      if (x > 0) {
+        document.getElementById("demo").innerHTML = x + " adalah angka positif.";
+      } else if (x < 0) {
+        document.getElementById("demo").innerHTML = x + " adalah angka negatif.";
+      } else {
+        document.getElementById("demo").innerHTML = x + " adalah nol.";
+      }
+    </script>
+</html>
